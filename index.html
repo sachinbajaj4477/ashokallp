@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashoka Properties | Premium Real Estate Kundli & Sonepat</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; }
+        
+        /* Modern Glass Effect */
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        /* Animated Gradient Text */
+        .gradient-text {
+            background: linear-gradient(90deg, #dc2626, #000000, #dc2626);
+            background-size: 200% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: shine 3s linear infinite;
+        }
+
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+
+        /* Luxury Card Hover */
+        .service-card {
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .service-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(220, 38, 38, 0.15);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #dc2626; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-[#fafafa]">
+
+    <nav class="fixed w-full z-[100] glass-nav border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex flex-col">
+                <span class="text-2xl font-extrabold tracking-tighter text-slate-900">ASHOKA <span class="text-red-600">PROPERTIES</span></span>
+                <span class="text-[9px] uppercase tracking-[0.3em] text-gray-500 font-bold">15 Years of Trust</span>
+            </a>
+            
+            <div class="hidden lg:flex items-center space-x-8 text-sm font-bold uppercase tracking-widest">
+                <a href="index.html" class="text-red-600 underline underline-offset-8">Home</a>
+                <a href="about.html" class="hover:text-red-600 transition">About</a>
+                <a href="residential.html" class="hover:text-red-600 transition">Residential</a>
+                <a href="commercial.html" class="hover:text-red-600 transition">Commercial</a>
+                <a href="contact.html" class="bg-slate-900 text-white px-8 py-3 rounded-full hover:bg-red-600 transition-all shadow-lg hover:shadow-red-200">Enquire Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center pt-20">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-red-50/50 -z-10 rounded-l-[100px] hidden lg:block"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center w-full">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="text-6xl lg:text-8xl font-extrabold text-slate-900 leading-[1.1] mb-6">
+                    Luxury <br><span class="gradient-text">Living</span> Defined.
+                </h1>
+                <p class="text-xl text-gray-500 mb-10 max-w-lg leading-relaxed font-light italic">
+                    "Specializing in TDI City, Kundli, and the booming industrial zones of Sonepat."
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#services" class="bg-red-600 text-white px-10 py-5 rounded-2xl font-bold shadow-2xl shadow-red-200 hover:bg-black transition transform hover:-translate-y-1">Explore Properties</a>
+                    <a href="https://wa.me/919350974852" class="flex items-center gap-3 font-bold text-slate-800 bg-white border border-gray-100 px-10 py-5 rounded-2xl shadow-sm hover:bg-slate-50 transition">
+                        <i class="fab fa-whatsapp text-green-500 text-2xl"></i> Chat with Expert
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative" data-aos="zoom-in-left" data-aos-duration="1200">
+                <div class="rounded-[50px] overflow-hidden shadow-2xl border-[15px] border-white">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000" class="w-full h-[600px] object-cover" alt="Modern Property">
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white p-8 rounded-3xl shadow-2xl border border-gray-50" data-aos="fade-up" data-aos-delay="500">
+                    <div class="text-4xl font-black text-red-600">15+</div>
+                    <div class="text-xs uppercase tracking-widest font-bold text-gray-400">Years Excellence</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-20">
+                <div data-aos="fade-up">
+                    <h2 class="text-red-600 font-extrabold uppercase tracking-widest text-sm mb-2 italic">Our Expertise</h2>
+                    <h3 class="text-5xl font-extrabold text-slate-900">Featured Services</h3>
+                </div>
+                <div class="hidden md:block" data-aos="fade-left">
+                    <p class="text-gray-400 max-w-xs text-right text-sm">Providing bespoke property solutions in Haryana's fastest-growing corridors.</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card group p-10 rounded-[40px] bg-[#fafafa] border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <div class="absolute top-0 right-0 p-8 text-6xl text-gray-100 group-hover:text-red-100 transition font-black">01</div>
+                    <div class="w-16 h-16 bg-white shadow-xl rounded-2xl flex items-center justify-center text-red-600 mb-8 text-2xl group-hover:bg-red-600 group-hover:text-white transition">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4 class="text-2xl font-extrabold mb-4">Builder Floors</h4>
+                    <p class="text-gray-500 mb-8 leading-relaxed italic text-sm">Premium independent living in TDI City with modern architectural finishes.</p>
+                    <a href="builder.html" class="inline-flex items-center font-bold text-slate-900 group-hover:text-red-600">View Details <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+
+                <div class="service-card group p-10 rounded-[40px] bg-[#fafafa] border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute top-0 right-0 p-8 text-6xl text-gray-100 group-hover:text-red-100 transition font-black">02</div>
+                    <div class="w-16 h-16 bg-white shadow-xl rounded-2xl flex items-center justify-center text-red-600 mb-8 text-2xl group-hover:bg-red-600 group-hover:text-white transition">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h4 class="text-2xl font-extrabold mb-4">Commercial Space</h4>
+                    <p class="text-gray-500 mb-8 leading-relaxed italic text-sm">Strategic retail & showroom locations on NH-44 for maximum footfall.</p>
+                    <a href="commercial.html" class="inline-flex items-center font-bold text-slate-900 group-hover:text-red-600">View Details <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+
+                <div class="service-card group p-10 rounded-[40px] bg-[#fafafa] border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                    <div class="absolute top-0 right-0 p-8 text-6xl text-gray-100 group-hover:text-red-100 transition font-black">03</div>
+                    <div class="w-16 h-16 bg-white shadow-xl rounded-2xl flex items-center justify-center text-red-600 mb-8 text-2xl group-hover:bg-red-600 group-hover:text-white transition">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4 class="text-2xl font-extrabold mb-4">Residential Plots</h4>
+                    <p class="text-gray-500 mb-8 leading-relaxed italic text-sm">Investment-ready plots in Jindal Global City and major townships.</p>
+                    <a href="residential.html" class="inline-flex items-center font-bold text-slate-900 group-hover:text-red-600">View Details <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-white pt-24 pb-12 px-6 overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-red-600/10 blur-[120px]"></div>
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-4 gap-12 border-b border-slate-800 pb-20 relative z-10">
+            <div class="col-span-2">
+                <div class="text-3xl font-black mb-6 italic underline decoration-red-600 underline-offset-8 decoration-4">ASHOKA</div>
+                <p class="text-slate-400 font-light max-w-sm mb-8 leading-loose">
+                    Head Office: AshokaSmart LLP SCO-64 pocket A, Ultima Global Square, Jindal Global City, Sector-35, Sonipat.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-12 h-12 rounded-full border border-slate-800 flex items-center justify-center hover:bg-red-600 transition hover:border-red-600"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="w-12 h-12 rounded-full border border-slate-800 flex items-center justify-center hover:bg-red-600 transition hover:border-red-600"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="w-12 h-12 rounded-full border border-slate-800 flex items-center justify-center hover:bg-red-600 transition hover:border-red-600"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h5 class="text-sm font-bold uppercase tracking-widest text-red-600 mb-8">Navigation</h5>
+                <ul class="space-y-4 font-medium text-slate-300 text-sm">
+                    <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-white transition">Our History</a></li>
+                    <li><a href="gallery.html" class="hover:text-white transition">Projects</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-sm font-bold uppercase tracking-widest text-red-600 mb-8">Quick Support</h5>
+                <ul class="space-y-4 font-bold text-white">
+                    <li class="flex items-center gap-3"><i class="fas fa-phone text-red-600"></i> +91-9350974852</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-envelope text-red-600"></i> ashoka.property773@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center pt-12 text-slate-600 text-[10px] uppercase tracking-widest font-bold">© 2026 Ashoka Properties | Designed for Global Standards</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
